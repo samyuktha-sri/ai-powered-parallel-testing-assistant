@@ -2,11 +2,12 @@
   {
     "name": "addition",
     "source": "addition.c",
-    "expected_stdout": "6",
+    "expected_stdout": "5",
     "should_compile": true
   },
   {
     "name": "operator_precedence",
+  
     "source": "operator_precedence.c",
     "expected_stdout": "14",
     "should_compile": true

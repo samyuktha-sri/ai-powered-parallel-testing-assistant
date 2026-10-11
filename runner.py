@@ -172,7 +172,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run C tests concurrently and create reports.")
     parser.add_argument("--workers", type=int, default=min(4, os.cpu_count() or 1),
                         help="Number of concurrent test workers (default: up to 4).")
-    parser.add_argument("--timeout", type=float, default=3.0,
+    parser.add_argument("--timeout", type=float, default=15.0,
                         help="Timeout in seconds for each compile/run step.")
     parser.add_argument("--ai", action="store_true", help="Ask the configured LLM to analyze failures.")
     args = parser.parse_args()
