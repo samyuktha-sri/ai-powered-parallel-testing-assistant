@@ -1,0 +1,32 @@
+[
+  {
+    "name": "addition",
+    "source": "addition.c",
+    "expected_stdout": "6",
+    "should_compile": true
+  },
+  {
+    "name": "operator_precedence",
+    "source": "operator_precedence.c",
+    "expected_stdout": "14",
+    "should_compile": true
+  },
+  {
+    "name": "loop_sum",
+    "source": "loop_sum.c",
+    "expected_stdout": "15",
+    "should_compile": true
+  },
+  {
+    "name": "function_call",
+    "source": "function_call.c",
+    "expected_stdout": "25",
+    "should_compile": true
+  },
+  {
+    "name": "invalid_syntax",
+    "source": "invalid_syntax.c",
+    "expected_stdout": "",
+    "should_compile": false
+  }
+]
